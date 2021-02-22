@@ -1,10 +1,11 @@
 # Proyecto para recaudación de donaciones
 
-_Proyecto orientado en facilitar las donaciones a distintas fundaciones de rescate animal a través de una plataforma amigable que explique el tipo de labor que desempeñan, dónde se ubican y cómo ayudarlos_
+_Proyecto orientado en facilitar las donaciones a distintas fundaciones de rescate animal a través de una plataforma amigable que explique el tipo de labor que desempeñan, dónde se ubican y cómo ayudarlos._
 
-## Comenzando 🚀
+## Pruebas iniciales 🐭
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+_Se desarrollo el protótipo en papel y luego en Figma para poder darle un esqueleto general al protótipo y avanzar sobre una base.
+Se utilizaron diseños propios relacionados a las mismas fundaciones o tiendas de animales, por lo cual se intento utilizar una paleta de colores amigable con el esquema general de desarrollo y el perfil de usuario al que apunta llegar._
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
