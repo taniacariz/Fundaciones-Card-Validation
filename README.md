@@ -1,6 +1,6 @@
-# Título del Proyecto
+# Proyecto para recaudación de donaciones
 
-_Acá va un párrafo que describa lo que es el proyecto_
+_Proyecto orientado en facilitar las donaciones a distintas fundaciones de rescate animal a través de una plataforma amigable que explique el tipo de labor que desempeñan, dónde se ubican y cómo ayudarlos_
 
 ## Comenzando 🚀
 
