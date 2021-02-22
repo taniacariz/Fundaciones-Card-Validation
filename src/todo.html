@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <title>Fundaciones</title>
     <link href="todo.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -12,8 +13,8 @@
     <section>
         <div id="home">
             <div class="card apagarUno">
-                <img class="imagenPortal" src="images/Portada.png"></img>
-                <img class="imagenCentral" id=portada src="images/Hola.png"></img>
+                <img class="imagenPortal" src="images/Portada.png" />
+                <img class="imagenCentral" id="portada" src="images/Hola.png" />
                 <h2>Tu aporte voluntario ayuda a que muchos pequeños puedan ser rescatados y
                     reubicados en hogares temporales y/o definitivos en donde recibiran los
                     cuidados y amor que siempre han merecido. </h2>
@@ -29,10 +30,10 @@
     <!-- Segunda página - Casita Hotel -->
 
     <section>
-        <div class="card">
-            <div id="segundaPaginaHotel">
-                <img class="imagenPortal" src="images/RatonaTexto1.png"></img>
-                <img class="imagenCentral" src="images/Ratona.png"></img>
+        <div id="segundaPaginaHotel">
+            <div class="card apagarDos">
+                <img class="imagenPortal" src="images/RatonaTexto1.png" />
+                <img class="imagenCentral" src="images/Ratona.png" />
                 <h2>Refugio de animales exóticos, entre los cuales podemos encontrar: roedores,
                     conejos y aves.Tu donación ayuda a que se pueda seguir alojando y rehabilitando
                     animales encontrados en malas condiciones, así como solventar los gastos básicos
@@ -42,13 +43,12 @@
                     Sede ubicada en la Región Metropolitana.
                 </h2>
                 <div class="flechaDonar">
-                    <i id="flecha" class="fas fa-angle-double-left fa-2x"></i>
+                    <i id="flecha" class="fas fa-angle-double-left fa-2x volver"></i>
                     <button id="donarCasita" class="donar"> DONAR</button>
                 </div>
                 <h3>Dudas o consultas sobre donaciones a portaldedonaciones@gmail.com</h3>
                 <br>
             </div>
-        </div>
         </div>
     </section>
 
@@ -57,8 +57,8 @@
     <section>
         <div id="segundaPaginaExoticos" class=" segundaPaginaExoticos">
             <div class="card">
-                <img class="imagenPortal" src="images/HabiTexto.png"></img>
-                <img class="imagenCentral" src="images/Habi.png"></img>
+                <img class="imagenPortal" src="images/HabiTexto.png" />
+                <img class="imagenCentral" src="images/Habi.png" />
                 <h2>Una agrupación sin fines de lucro, tiene como objetivo rescatar animales
                     exóticos de laboratorios, tiendas, bioterios, etc; para rehabilitarlos
                     y posteriormente darles un hogar en donde los amen.
@@ -81,8 +81,8 @@
     <section>
         <div id="segundaPaginaPavo" class=" segundaPaginaPavo">
             <div class="card">
-                <img class="imagenPortal" src="images/PavoRatón.png"></img>
-                <img class="imagenCentral" src="images/Solito.png"></img>
+                <img class="imagenPortal" src="images/PavoRatón.png" />
+                <img class="imagenCentral" src="images/Solito.png" />
                 <h2>Una agrupación sin fines de lucro, tiene como objetivo rescatar animales
                     exóticos de laboratorios, tiendas, bioterios, etc; para rehabilitarlos
                     y posteriormente darles un hogar en donde los amen.
@@ -104,8 +104,8 @@
 
     <section>
         <div id="tercerPaginaHotel">
-            <div class="card apagarTres" class="apagarTres">
-                <img class="imagenPortal" src="images/Portal1.png"></img>
+            <div class="card apagarTres">
+                <img class="imagenPortal" src="images/Portal1.png" />
                 <h2>Recuerda no compartir tus datos en páginas externas, no recibimos
                     donaciones por medios no oficiales.
                     <br>
@@ -117,7 +117,7 @@
                     <div><label for="inputCuadrado">Nombre usuario:</label> <input type="text" size="10"
                             id="inputNombre">
                     </div>
-                    <div><label for="inputCuadrado">Número tarjeta:</label> <input type="text" size="10"
+                    <div><label for="inputCuadrado" class="clickTarjeta">Número tarjeta:</label> <input type="text" size="10"
                             id="inputTarjeta">
                     </div>
                     <div><label for="inputCuadrado">Vencimiento:</label> <input type="text" size="10"
@@ -134,21 +134,21 @@
                     <h6>Monto mínimo $2.000 CPL</h6>
                     <div class="vencimientoTexto">Cuotas:
                         <select name="text" id="inputCuotas">
+                            <option value="textoCuotas">Sin Cuotas</option>
+                            <option value="textoCuotas">1</option>
+                            <option value="textoCuotas">2</option>
+                            <option value="textoCuotas">3</option>
+                        </select>
                     </div>
-                    <option value="textoCuotas">Sin Cuotas</option>
-                    <option value="textoCuotas">1</option>
-                    <option value="textoCuotas">2</option>
-                    <option value="textoCuotas">3</option>
-                    </select>
+                </form>
+                <div class="flechaDonar">
+                    <button id="botonAtras" class="botonAnularFinalizar volver">ANULAR</button>
+                    <button id="botonFinalizar" class="botonAnularFinalizar">
+                        FINALIZAR</button>
+                </div>
+                <h3>Dudas o consultas sobre donaciones a portaldedonaciones@gmail.com</h3>
+                <br>
             </div>
-            </form>
-            <div class="flechaDonar">
-                <button id="botonAtras" class="botonAnularFinalizar">ANULAR</button>
-                <button id="botonFinalizar" class="botonAnularFinalizar">
-                    FINALIZAR</button>
-            </div>
-            <h3>Dudas o consultas sobre donaciones a portaldedonaciones@gmail.com</h3>
-            <br>
         </div>
     </section>
 
@@ -158,7 +158,7 @@
     <section class="donarDos">
 
         <div class="card">
-            <img class="imagenPortal" src="images/Portal1.png"></img>
+            <img class="imagenPortal" src="images/Portal1.png" />
             <h2>Recuerda no compartir tus datos en páginas externas, no recibimos
                 donaciones por medios no oficiales.
                 <br>
@@ -206,7 +206,7 @@
     <section class="donarTres">
 
         <div class="card">
-            <img class="imagenPortal" src="images/Portal1.png"></img>
+            <img class="imagenPortal" src="images/Portal1.png" />
             <h2>Recuerda no compartir tus datos en páginas externas, no recibimos
                 donaciones por medios no oficiales.
                 <br>
@@ -250,17 +250,17 @@
     <--Pagina de Gracias Hotel-->
 
     <section>
-        <div id="cuartapaginaHotel">
+        <div id="cuartaPaginaHotel">
             <div class="card apagarCuatro">
                 <br>
-                <img class="imagenPortal" src="images/Gracias.png"></img>
-                <img class="imagenCentral" src="images/Ratona.png"></img>
+                <img class="imagenPortal" src="images/Gracias.png" />
+                <img class="imagenCentral" src="images/Ratona.png" />
                 <h2>Tu donación nos permite seguir trabajando y rescatando animales que sólo merecen amor.
                     Te invitamos a seguirnos en nuestras redes sociales para poder mantenerte informado de
                     nuestra labor. </h2>
 
                 <div class="centrar">
-                    <botton id="volverInicio" class="fas fa-angle-double-left fa-2x">
+                    <botton id="volverInicio" class="fas fa-angle-double-left fa-2x volver">
                     </botton>
                     <a class="fab fa-twitter-square fa-2x" href="https://www.youtube.com/watch?v=BtLSaxRnIhc">
                     </a>
@@ -280,8 +280,8 @@
     <section class="graciasDos">
         <div class="card">
             <br>
-            <img id="imagenGracias" src="images/Gracias.png"></img>
-            <img class="imagenCentral" src="images/Habi.png"></img>
+            <img id="imagenGracias" src="images/Gracias.png" />
+            <img class="imagenCentral" src="images/Habi.png" />
             <h2>Tu donación nos permite seguir trabajando y rescatando animales que sólo merecen amor.
                 Te invitamos a seguirnos en nuestras redes sociales para poder mantenerte informado de
                 nuestra labor. </h2>
@@ -300,8 +300,8 @@
     <section class="graciasTres">
         <div class="card">
             <br>
-            <img id="imagenGracias" src="images/Gracias.png"></img>
-            <img class="imagenCentral" src="images/Solito.png"></img>
+            <img id="imagenGracias" src="images/Gracias.png" />
+            <img class="imagenCentral" src="images/Solito.png" />
             <h2>Tu donación nos permite seguir trabajando y rescatando animales que sólo merecen amor.
                 Te invitamos a seguirnos en nuestras redes sociales para poder mantenerte informado de
                 nuestra labor. </h2>
@@ -321,5 +321,6 @@
 
     <script src="index.js"></script>
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-
 </body>
+
+</html>

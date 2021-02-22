@@ -369,18 +369,26 @@ body {
 
   /*Configuración none-block*/
 
-  .apagarUno {
+  #home {
     display: block;
   }
 
-  .apagarDos {
+  #segundaPaginaHotel {
     display: none;
   }
 
-  .apagarTres {
+  #tercerPaginaHotel {
     display: none;
   }
 
-  .apagarCuatro {
+  #cuartaPaginaHotel {
     display: none;
   }
+
+  
+  /*Configuración botón atrás*/
+
+  .volver {
+    cursor: pointer;
+  }
+
