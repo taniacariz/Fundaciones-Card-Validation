@@ -1,0 +1,386 @@
+
+
+body {
+    background-color: #FFD6D6;
+    font-family: 'Calibri light','Tahoma light';
+    display: block;
+    justify-content: center;
+
+  }
+
+  .card {
+    display: block;
+    justify-content: center;
+    width: 100% auto; 
+    height: 100% auto;
+    transition: 0.3s;
+    margin: 15px;
+    background-image: linear-gradient(to bottom, #ff9a9a, #ff9e9e, #ffa3a3, #ffa7a7, #ffabab, #ffafad, #ffb4af, #ffb8b1, #ffbeb3, #ffc3b5, #ffc9b8, #ffcebc);  background-image: linear-gradient(to bottom, #ffba9a, #ffb89e, #ffb6a2, #ffb4a6, #ffb2aa, #ffb4ac, #ffb6af, #ffb8b1, #ffbeb3, #ffc3b5, #ffc9b8, #ffcebc);background-image: linear-gradient(to bottom, #f7949c, #f999a0, #fa9fa3, #fca4a7, #fda9ab, #feaead, #feb3af, #ffb8b1, #ffbeb3, #ffc3b5, #ffc9b8, #ffcebc);
+  }
+
+    /*Configuración textos*/
+
+  h1 {
+    font-size: 17px;
+    margin: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #7a6969;
+    font-size: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  h3 {    
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    color: #7a6969;
+    font-size: 12px;
+  }
+  
+  h4 {
+    color: #997a7a;
+    font-size: 10px;
+    margin-right: 160px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-decoration: none;  
+  }
+
+  h4:hover{    
+    color: #af7876;
+    opacity: 0.6;
+    font-size: 90%;
+  }
+
+  h5 {
+    color: #af7876;
+    font-size: 10px;
+    margin-right: 150px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-decoration: none;  
+  }
+
+  h5:hover{    
+    color: #af7876;
+    opacity: 0.6;
+    font-size: 90%;
+    text-decoration: none;  
+  }
+  
+  h6 {
+    color: #997a7a;
+    font-size: 10px;
+    margin-right: 100px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-decoration: none; 
+  }
+
+  h6:hover{    
+    color: #685c5f;
+    opacity: 0.6;
+    font-size: 90%;
+  }
+  
+    /*Configuración imágenes*/
+  
+  .imagenPortal {
+    display:block;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: center;
+    margin-bottom: -10 px;
+  }
+
+  .imagenCentral {
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+  }
+
+  #portada {
+    margin-top: -50px;
+    margin-bottom: -30px;
+  }
+
+  /*Configuración botones Home*/
+
+  .botonesCentradosHome {
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    padding: 13px;
+    font-size: 12px;
+    color: #6e5b5b ;
+    border-radius: 14px;
+    border: transparent
+  }
+
+  .botonesCentradosHome:hover{
+    color: #685c5f;
+    background-color: #ffffff;
+    opacity: 0.6;
+  }
+
+  #siguientePaginaHotel {
+    background-color: #fcacac;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #946a6a;
+  }
+  
+  #siguientePaginaExoticos {
+    background-color: #ffcece;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #946a6a;
+  }
+
+  #siguientePaginaPavo {
+    background-color: #ffe3e3;
+    font-weight: bold;
+    color: #946a6a;
+  }
+  
+  #tarjetaBotón {
+    width: 100px;
+    background-color: #fde5e5;
+    border-radius: 18px;
+    color: #946a6a;
+    font-weight: bold;
+  }
+
+    /*Rectángulo tarjeta CSS*/
+
+  .cuadradoTarjeta{
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    width: 400px; 
+    height: 320px;
+    border-radius: 25px;
+    background: #fdd5d5;
+    color: #6e5b5b;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  
+    /*Componentes Rectángulo tarjeta*/
+
+  #inputNombre{
+    background-color: #ffffff;
+    opacity: 0.6;
+    width: 130px;
+    padding: 8px;
+    font-size: 10px;
+    color: #6e5b5b ;
+    border-radius: 10px;
+    border: transparent;
+    margin-top: 10px;
+    margin-right: 60px;
+  }
+
+  #inputTarjeta{
+    background-color: #ffffff;
+    opacity: 0.6;
+    width: 130px;
+    padding: 8px;
+    font-size: 10px;
+    color: #6e5b5b ;
+    border-radius: 10px;
+    border: transparent;
+    margin-top: 10px;
+    margin-right: 60px;
+  }
+
+  #inputVencimiento{
+    background-color: #ffffff;
+    opacity: 0.6;
+    width: 80px;
+    padding: 8px;
+    font-size: 10px;
+    color: #6e5b5b ;
+    border-radius: 10px;
+    border: transparent;
+    margin-top: 10px;
+    margin-right: 110px
+  }
+
+  #inputCodigo{
+    background-color: #ffffff;
+    opacity: 0.6;
+    width: 80px;
+    padding: 8px;
+    font-size: 10px;
+    color: #6e5b5b ;
+    border-radius: 10px;
+    border: transparent;
+    margin-top: 3px;
+    margin-right: 110px
+  }
+
+  #inputMonto{
+    background-color: #ffffff;
+    opacity: 0.6;
+    width: 80px;
+    padding: 8px;
+    font-size: 10px;
+    color: #6e5b5b ;
+    border-radius: 10px;
+    border: transparent;
+    margin-top: 3px;
+    margin-right: 110px
+  }
+
+  #inputCuotas{
+    background-color: #ffffff;
+    opacity: 0.6;
+    width: 100px;
+    padding: 8px;
+    font-size: 12px;
+    color: #533d3d ;
+    border-radius: 10px;
+    border: transparent;
+    margin-top: 3px;
+    margin-right: 110px
+  }
+
+    /*Configuración Anular y Finalizar*/
+
+  .botonAnularFinalizar{
+    overflow: hidden;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    }
+
+  #botonAtras{
+    background-color: #755c5c;
+    color: #ffc9b8;
+    width: 100px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 13px;
+    font-size: 14px;
+    border-radius: 14px;
+    text-decoration: none;
+    border-radius: 14px;
+    border: transparent;
+    margin-left: 15px;
+    margin-right: ;
+  }
+
+  #botonAtras:hover{
+    background-color: #fdefef;
+    opacity: 0.6;
+  }
+
+  #botonFinalizar{
+    background-color: #755c5c;
+    color: #ffc9b8;
+    width: 100px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 13px;
+    font-size: 14px;
+    border-radius: 14px;
+    text-decoration: none;
+    border-radius: 14px;
+    border: transparent;
+    margin-left: 15px;
+    margin-right: ;
+  }
+
+  #botonFinalizar:hover{
+    background-color: #fdefef;
+    opacity: 0.6;
+  }
+
+
+     /*Flechas-donar / anular-finalizar ubicación*/
+
+  .flechaDonar {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .donar {
+    
+    background-color: #755c5c;
+    color: #ffc9b8;
+    width: 100px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 13px;
+    font-size: 14px;
+    border-radius: 14px;
+    text-decoration: none;
+    border-radius: 14px;
+    border: transparent;
+    margin-right: 40px;
+  }
+
+  .donar:hover{
+    background-color: #fdefef;
+    opacity: 0.6;
+  }
+
+  #flecha{
+    margin-right: 40px;
+  }
+
+    /*Configuración botones redes sociales*/
+
+  .centrar{
+    overflow: hidden;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-right: 30px;
+  }
+
+  .fab {
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    color: #755c5c ;
+    border: transparent;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  
+    /*Flechitas*/
+
+    .fas{
+      text-decoration: none;
+      color: #755c5c;
+    }
+
+  /*Configuración none-block*/
+
+  .apagarUno {
+    display: block;
+  }
+
+  .apagarDos {
+    display: none;
+  }
+
+  .apagarTres {
+    display: none;
+  }
+
+  .apagarCuatro {
+    display: none;
+  }
