@@ -15,8 +15,10 @@ Link de Figma: https://www.figma.com/proto/bCeFoMai8qapVZnef6mNCB/Donaciones-uvu
 
 _Para facilitar la experiencia del usuario se agrego una imagen explicativa del código verificador._
 
+<div align="center">
 ![Tarjeta](https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/Tarjeta.png)
-
+<p>Perfectly balanced</p>
+</div>
 
 ## Cambios en el código HTML ⚙️
 
