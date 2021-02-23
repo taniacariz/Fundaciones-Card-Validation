@@ -1,21 +1,3 @@
-
-  /*
-
-  //metodo para enmascarar tarjetas
-  maskify(creditCardNumber) {
-    let long = creditCardNumber.length - 4;
-    let last4 = creditCardNumber.substring(creditCardNumber.length - 4);
-    let result = "";
-    //bucle para tapar los numeros de la tarjeta menos los ultimos 4
-    for (let mask = 1; mask <= long; mask++) {
-      result += "#";
-    }
-    return result + last4;
-  }
-}
-*/
-
-
 //split, toma un texto y lo transforma en un arreglo
 //revertNumber, toma una cadena de texto y nos la devuelve como un arreglo 
 //map, toma hasta 3 paramétros, + obliga a que el valor sea siempre un número (similar a parseInt)
