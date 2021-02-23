@@ -12,8 +12,7 @@ https://ibb.co/3syLZzy
 
 ### Cambios iniciales 📋
 
-_Se_
-
+_Para facilitar la experiencia del usuario se agrego una imagen explicativa de la tarjeta.  _
 
 ![Tarjeta](https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/Tarjeta.png)
 
