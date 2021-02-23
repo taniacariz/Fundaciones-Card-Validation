@@ -107,6 +107,15 @@ body {
     margin-top: -50px;
     margin-bottom: -30px;
   }
+  
+ #imagenTarjeta {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
 
   /*Configuración botones Home*/
 
@@ -151,6 +160,8 @@ body {
   }
   
   #tarjetaBotón {
+    display: block;
+    justify-content: center;
     width: 100px;
     background-color: #fde5e5;
     border-radius: 18px;
@@ -275,7 +286,6 @@ body {
     border-radius: 14px;
     border: transparent;
     margin-left: 15px;
-    margin-right: ;
   }
 
   #botonAtras:hover{
@@ -296,7 +306,6 @@ body {
     border-radius: 14px;
     border: transparent;
     margin-left: 15px;
-    margin-right: ;
   }
 
   #botonFinalizar:hover{
@@ -328,7 +337,7 @@ body {
     text-decoration: none;
     border-radius: 14px;
     border: transparent;
-    margin-right: 40px;
+    margin-right: 45px;
   }
 
   .donar:hover{
@@ -340,12 +349,35 @@ body {
     margin-right: 40px;
   }
 
+  .donarUno {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #755c5c;
+    color: #ffc9b8;
+    width: 100px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 13px;
+    font-size: 14px;
+    border-radius: 14px;
+    text-decoration: none;
+    border-radius: 14px;
+    border: transparent;
+  }
+
+  .donarUno:hover{
+    background-color: #fdefef;
+    opacity: 0.6;
+  }
+
+
     /*Configuración botones redes sociales*/
 
   .centrar{
     overflow: hidden;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     margin-right: 30px;
   }
