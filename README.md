@@ -7,12 +7,11 @@ _Proyecto orientado en facilitar las donaciones a distintas fundaciones de resca
 _Se desarrollo la idea principal en papel y luego en Figma para poder darle un esqueleto general al protótipo y avanzar sobre una base.
 Se utilizaron diseños propios relacionados a las mismas fundaciones o tiendas de animales, por lo cual se utilizo una paleta de colores amigable con el esquema general de desarrollo visual y el perfil de usuario al que apunta llegar._
 
-Figma protótipo inicial.
-https://ibb.co/3syLZzy
+![Figma protótipo inicial](https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/figmageneral.jpg)
 
 ### Cambios iniciales 📋
 
-_Para facilitar la experiencia del usuario se agrego una imagen explicativa de la tarjeta.  _
+_Para facilitar la experiencia del usuario se agrego una imagen explicativa del código verificador._
 
 ![Tarjeta](https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/Tarjeta.png)
 
@@ -87,22 +86,4 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
 * **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
-
-
-
----
-⌨️ con ❤️ por [Villanuevand](https://githu
