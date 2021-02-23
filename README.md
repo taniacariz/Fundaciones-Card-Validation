@@ -15,16 +15,17 @@ Link de Figma: https://www.figma.com/proto/bCeFoMai8qapVZnef6mNCB/Donaciones-uvu
 
 _Para facilitar la experiencia del usuario se agrego una imagen explicativa del código verificador._
 
-<div align="center">
+
 ![Tarjeta](https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/Tarjeta.png)
-<p>Perfectly balanced</p>
-</div>
+
 
 ## Cambios en el código HTML ⚙️
 
 _Como recomendación se me indico que era recomendable trabajar todo mi código html en sólo un archivo y no linkear entre archivos._
 
+<div align="center">
 ![Muchos](https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/muchoshtml.png)
+</div>
 
 _Se juntaron todos los archivos html en uno principal trabajando el flujo entre páginas a través de JS._
 
