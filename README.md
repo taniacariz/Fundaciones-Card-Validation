@@ -7,7 +7,8 @@ _Proyecto orientado en facilitar las donaciones a distintas fundaciones de resca
 _Se desarrollo la idea principal en papel y luego en Figma para poder darle un esqueleto general al protótipo y avanzar sobre una base.
 Se utilizaron diseños propios relacionados a las mismas fundaciones o tiendas de animales, por lo cual se intento utilizar una paleta de colores amigable con el esquema general de desarrollo y el perfil de usuario al que apunta llegar._
 
-![Alt text](https://ibb.co/3syLZzy "Figma protótipo inicial")
+![Figma](https://ibb.co/3syLZzy)
+
 
 
 Mira **Deployment** para conocer como desplegar el proyecto.
