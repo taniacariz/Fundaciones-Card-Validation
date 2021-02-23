@@ -5,18 +5,14 @@ _Proyecto orientado en facilitar las donaciones a distintas fundaciones de resca
 ## Pruebas iniciales 🐭
 
 _Se desarrollo la idea principal en papel y luego en Figma para poder darle un esqueleto general al protótipo y avanzar sobre una base.
-Se utilizaron diseños propios relacionados a las mismas fundaciones o tiendas de animales, por lo cual se intento utilizar una paleta de colores amigable con el esquema general de desarrollo y el perfil de usuario al que apunta llegar._
+Se utilizaron diseños propios relacionados a las mismas fundaciones o tiendas de animales, por lo cual se utilizo una paleta de colores amigable con el esquema general de desarrollo visual y el perfil de usuario al que apunta llegar._
 
-![Figma Protótipo - Fundación "Casita Hotel"] https://ibb.co/3syLZzy
+Figma protótipo inicial.
+https://ibb.co/3syLZzy
 
+### Cambios iniciales 📋
 
-
-Mira **Deployment** para conocer como desplegar el proyecto.
-
-
-### Pre-requisitos 📋
-
-_Que cosas necesitas para instalar el software y como instalarlas_
+_Se_
 
 ```
 Da un ejemplo
