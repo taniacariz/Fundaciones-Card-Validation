@@ -23,10 +23,14 @@ _Para facilitar la experiencia del usuario se agrego una imagen explicativa del 
 
 _Como recomendación se me indico que era recomendable trabajar todo mi código html en sólo un archivo y no linkear entre archivos._
 
-![Muchos](https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/muchoshtml.png)
+ <p align="center"> 
+    <img src="https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/muchoshtml.png">
+ </p>
+
 
 _Se juntaron todos los archivos html en uno principal trabajando el flujo entre páginas a través de JS._
 
-![Pocos](https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/pocoshtml.png)
-
+ <p align="center"> 
+    <img src="https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/pocoshtml.png">
+ </p>
 
