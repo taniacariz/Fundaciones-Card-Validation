@@ -11,7 +11,7 @@ Se utilizaron diseños propios relacionados a las mismas fundaciones o tiendas d
 
 ### Cambios iniciales 📋
 
-_Para facilitar la experiencia del usuario se agrego una imagen explicativa de la tarjeta._
+_Para facilitar la experiencia del usuario se agrego una imagen explicativa del código verificador._
 
 ![Tarjeta](https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/Tarjeta.png)
 
