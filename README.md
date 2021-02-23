@@ -9,6 +9,8 @@ Se utilizaron diseños propios relacionados a las mismas fundaciones o tiendas d
 
 ![Figma protótipo inicial](https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/figmageneral.jpg)
 
+Link de Figma: https://www.figma.com/proto/bCeFoMai8qapVZnef6mNCB/Donaciones-uvu?node-id=5%3A17&scaling=min-zoom
+
 ### Cambios en la interfaz 📋
 
 _Para facilitar la experiencia del usuario se agrego una imagen explicativa del código verificador._
