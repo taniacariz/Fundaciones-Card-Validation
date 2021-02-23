@@ -15,7 +15,7 @@ https://ibb.co/3syLZzy
 _Se_
 
 
-https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/Tarjeta.png
+![Tarjeta](https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/Tarjeta.png)
 
 ```
 Da un ejemplo
