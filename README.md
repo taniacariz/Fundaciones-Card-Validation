@@ -28,7 +28,7 @@ _Como recomendación se me indico que era recomendable trabajar todo mi código 
  </p>
 
 
-_Se juntaron todos los archivos html en uno principal trabajando el flujo principal de páginas a través de JS. La única página que quedo excenta fue la del Código Verificador debido a que en esta ocasión no logre vincular esta rama a la principal. Así como también tuve que apagar las páginas de las otras fundaciones para trabajar sólo un flujo de momento._
+_Se juntaron todos los archivos html en uno principal trabajando el flujo principal de páginas a través de JS. La única página que quedo excenta fue la del Código Verificador debido a que en esta ocasión no logre vincularla al flujo principal. 
 
  <p align="center"> 
     <img src="https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/pocoshtml.png">
