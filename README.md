@@ -11,21 +11,22 @@ Se utilizaron diseños propios relacionados a las mismas fundaciones o tiendas d
 
 Link de Figma: https://www.figma.com/proto/bCeFoMai8qapVZnef6mNCB/Donaciones-uvu?node-id=5%3A17&scaling=min-zoom
 
-### Cambios en la interfaz 📋
+### Cambios en la interfaz 🐹
 
 _Para facilitar la experiencia del usuario se agrego una imagen explicativa del código verificador._
 
 ![Tarjeta](https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/Tarjeta.png)
 
 
-### Cambios  🔧
+## Cambios en el código HTML ⚙️
 
-_Se 
+_Como recomendación se me indico que era recomendable trabajar todo mi código html en sólo un archivo y no linkear entre archivos._
 
+![Muchos](https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/muchoshtml.png)
 
-## Ejecutando las pruebas ⚙️
+_Se juntaron todos los archivos html en uno principal trabajando el flujo entre páginas a través de JS._
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+![Pocos](https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/pocoshtml.png)
 
 ### Analice las pruebas end-to-end 🔩
 
