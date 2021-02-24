@@ -417,10 +417,12 @@ body {
     display: none;
   }
 
-  
   /*Configuración botón atrás*/
 
   .volver {
     cursor: pointer;
   }
+
+
+  
 

@@ -43,8 +43,41 @@ function repeat() {
     document.getElementById("cuartaPaginaHotel").style.display = "none";
 }
 
-//Transformar el objeto de objetos volver en un arreglo de objetos 
-//y por cada elemento agrega el evento click llamando a la función repeat
+//Pasa cada elemento por el evento click llamando a la función repeat
 
 let volver = document.getElementsByClassName("volver")
 Array.from(volver).forEach((element) => { element.addEventListener("click", repeat) })
+
+
+
+//JS input Número de Tarjeta
+//blur detecta la perdida de foco en el input
+
+document.getElementById("clickTarjeta").addEventListener("blur", myFunction)
+function myFunction() {
+    let numero = document.getElementById("cardNumber").value;
+
+    if (isNaN(cardNumber) || (cardNumber == "")) {
+        document.getElementById("error").innerHTML = "Debe ingresar un número";
+        document.getElementById("cardNumber").value = "";
+    }
+
+    else {
+
+        let validator = validator.isvalid(cardNumber);
+        if (validator == true) {
+
+            document.getElementById("error").style.color = "#a5e9e9";
+            document.getElementById("error").innerHTML = "Datos ingresados correctamente";
+        }
+
+        else {
+            document.getElementById("error").style.color = "#db6060";
+            document.getElementById("error").style.color = "Datos inválidos";
+        }
+
+        let resultado = validaor.maskify(cardNumber);
+        document.getElementById("cardNumber").value = resultado;
+    }
+}
+

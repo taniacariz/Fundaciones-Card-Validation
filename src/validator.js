@@ -44,17 +44,24 @@ const isValid = (cardNumber) => {
   return cardStatus;
 }
 
-//algoritmo de Luhn 
+//Maskify = método que oculta los números a excepción de los últimos cuatro
 
 const maskify = (cardNumber) => {
-  let long = cardNumber.length - 4;
-  let last4 = cardNumber.substring(cardNumber.length - 4)
-  let result = "";
 
+//long es el largo de cardNumber - 4 posiciones
+  let long = cardNumber.length - 4;
+  //últimos 4 carácteres 
+  let lastFour = cardNumber.substring(cardNumber.length - 4)
+  let result = "";
+  //for recorre el arreglo exceptuando las últimas 4 posiciones
   for (let mask = 1; mask <= long; mask++) {
+  //se suman los números finales + los que están ocultos 
     result += "#";
   }
-  return result + last4;
+
+//Sumo a mi arreglo final los Strings
+
+  return result + lastFour;
 }
 
 export default { isValid, maskify };
