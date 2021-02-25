@@ -46,13 +46,15 @@ function repeat() {
     document.getElementById("cuartaPaginaHotel").style.display = "none";
 }
 
-//Pasa cada elemento por el evento click llamando a la función repeat
+//Retornar a la primera página class="volver"
 
 let volver = document.getElementsByClassName("volver")
-Array.from(volver).forEach((element) => { element.addEventListener("click", repeat) })
+Array.from(volver).forEach((element) => {
+    element.addEventListener("click", repeat)
+})
 
 
-//Resultados true or false
+//Validator números tarjeta = true or false 
 
 const confirmacionTarjeta = () => {
 
@@ -62,20 +64,23 @@ const confirmacionTarjeta = () => {
         alert("Ingresa un número de tarjeta válido.");
         return
     }
+    else {
+        let validacion = validator.isValid(numeroTarjeta); //retorna verdadero o falso
 
-    let validacion = validator.isValid(numeroTarjeta); //retorna verdadero o falso
+        if (validacion == false) {  //tiene el resultado de validator == compara === valor y tipo de datos el mismo 
+            alert("Revisa tus datos nuevamente.");
+            return
 
-    if (validacion == false) {  //tiene el resultado de validator == compara === valor y tipo de datos el mismo 
-        alert("Revisa tus datos nuevamente.");
-    } else {
-        alert("Número de tarjeta " + validator.maskify(numeroTarjeta) + " ingresado correctamente.");
+        } else {
+            alert("Ingresado correctamente " + validator.maskify(numeroTarjeta));
+            return
+        }
     }
 }
 
-let probar = document.getElementById("botonProbar")
-probar.addEventListener("click", confirmacionTarjeta)
+let prueba = document.getElementById("botonPrueba")
+prueba.addEventListener("click", confirmacionTarjeta)
 
 
-
-//return /en una función siempre hay return aunque no se vea, corta el funcionamiento
+//return en una función siempre hay return aunque no se vea, corta el funcionamiento
 
