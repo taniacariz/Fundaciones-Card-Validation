@@ -1,3 +1,5 @@
+import validator from './validator.js';
+
 //Funcion desde Home a Página Hotel
 
 let inicio = document.getElementById("siguientePaginaHotel")
@@ -24,15 +26,15 @@ function nextPageTwo() {
 
 //Funcion Donar a Datos Tarjeta
 
-let pagar = document.getElementById("botonFinalizar")
-pagar.addEventListener("click", nextPageTree)
+//let pagar = document.getElementById("botonFinalizar")
+//pagar.addEventListener("click", nextPageTree)
 
-function nextPageTree() {
-    document.getElementById("home").style.display = "none";
-    document.getElementById("segundaPaginaHotel").style.display = "none";
-    document.getElementById("tercerPaginaHotel").style.display = "none";
-    document.getElementById("cuartaPaginaHotel").style.display = "block";
-}
+//function nextPageTree() {
+//  document.getElementById("home").style.display = "none";
+//  document.getElementById("segundaPaginaHotel").style.display = "none";
+//  document.getElementById("tercerPaginaHotel").style.display = "none";
+//  document.getElementById("cuartaPaginaHotel").style.display = "block";
+//}
 
 //Funcion Gracias
 
@@ -49,35 +51,28 @@ let volver = document.getElementsByClassName("volver")
 Array.from(volver).forEach((element) => { element.addEventListener("click", repeat) })
 
 
+//Resultados true or false
 
-//JS input Número de Tarjeta
-//blur detecta la perdida de foco en el input
+const confirmacionTarjeta = () => {
 
-document.getElementById("clickTarjeta").addEventListener("blur", myFunction)
-function myFunction() {
-    let numero = document.getElementById("cardNumber").value;
+    let numeroTarjeta = document.getElementById("inputTarjeta").value // Valor numero de tarjeta
+    // alert(numeroTarjeta) 
 
-    if (isNaN(cardNumber) || (cardNumber == "")) {
-        document.getElementById("error").innerHTML = "Debe ingresar un número";
-        document.getElementById("cardNumber").value = "";
+    if (numeroTarjeta.length < 16 || numeroTarjeta === 0) { //alert número erróneo 
+        alert("Ingresa un número de tarjeta válido.");
+        return //en una función siempre hay return aunque no se vea, corta el funcionamiento
     }
 
-    else {
+    let validacion = validator.isValid(numeroTarjeta); //retorna verdadero o falso
+    //alert(validacion)
 
-        let validator = validator.isvalid(cardNumber);
-        if (validator == true) {
-
-            document.getElementById("error").style.color = "#a5e9e9";
-            document.getElementById("error").innerHTML = "Datos ingresados correctamente";
-        }
-
-        else {
-            document.getElementById("error").style.color = "#db6060";
-            document.getElementById("error").style.color = "Datos inválidos";
-        }
-
-        let resultado = validaor.maskify(cardNumber);
-        document.getElementById("cardNumber").value = resultado;
+    if (validacion == false) {  //tiene el resultado de validator == compara === valor y tipo de datos el mismo 
+        alert("Revisa tus datos nuevamente.");
+    } else {
+        alert("Información" + validator.maskify(numeroTarjeta) + " ingresada correctamente.")
     }
 }
 
+//se toma de estructura anterior 
+let pagar = document.getElementById("botonFinalizar")
+pagar.addEventListener("click", confirmacionTarjeta)
