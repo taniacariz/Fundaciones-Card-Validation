@@ -165,18 +165,17 @@ body {
     width: 100px;
     background-color: #fde5e5;
     border-radius: 18px;
-    color: #946a6a;
+    color: #685c5f;
     font-weight: bold;
   }
 
     /*Rectángulo tarjeta CSS*/
 
   .cuadradoTarjeta{
-    display: flex;
     text-align: right;
     flex-direction: column;
     width: 400px; 
-    height: 320px;
+    height: 350px;
     border-radius: 25px;
     background: #fdd5d5;
     color: #6e5b5b;
@@ -264,6 +263,24 @@ body {
     margin-right: 110px
   }
 
+  #botonProbar{
+    background-color: #ffffff;
+    opacity: 0.6;
+    width: 95px;
+    padding: 8px;
+    font-size: 10px;
+    color: #533d3d ;
+    border-radius: 10px;
+    border: transparent;
+    margin-top: 10px;
+    margin-right: 110px
+  }
+
+  #botonProbar:hover{
+    background-color: #ffffff;
+    opacity: 0.2;
+  }
+  
     /*Configuración Anular y Finalizar*/
 
   .botonAnularFinalizar{
@@ -279,7 +296,7 @@ body {
     width: 100px;
     font-weight: bold;
     text-decoration: none;
-    padding: 13px;
+    padding: 12px;
     font-size: 14px;
     border-radius: 14px;
     text-decoration: none;
@@ -299,7 +316,7 @@ body {
     width: 100px;
     font-weight: bold;
     text-decoration: none;
-    padding: 13px;
+    padding: 12px;
     font-size: 14px;
     border-radius: 14px;
     text-decoration: none;
@@ -331,13 +348,13 @@ body {
     width: 100px;
     font-weight: bold;
     text-decoration: none;
-    padding: 13px;
+    padding: 12px;
     font-size: 14px;
     border-radius: 14px;
     text-decoration: none;
     border-radius: 14px;
     border: transparent;
-    margin-right: 45px;
+    margin-right: 65px;
   }
 
   .donar:hover{

@@ -1,5 +1,6 @@
 import validator from './validator.js';
 
+
 //Funcion desde Home a Página Hotel
 
 let inicio = document.getElementById("siguientePaginaHotel")
@@ -26,15 +27,15 @@ function nextPageTwo() {
 
 //Funcion Donar a Datos Tarjeta
 
-//let pagar = document.getElementById("botonFinalizar")
-//pagar.addEventListener("click", nextPageTree)
+let pagar = document.getElementById("botonFinalizar")
+pagar.addEventListener("click", nextPageTree)
 
-//function nextPageTree() {
-//  document.getElementById("home").style.display = "none";
-//  document.getElementById("segundaPaginaHotel").style.display = "none";
-//  document.getElementById("tercerPaginaHotel").style.display = "none";
-//  document.getElementById("cuartaPaginaHotel").style.display = "block";
-//}
+function nextPageTree() {
+    document.getElementById("home").style.display = "none";
+    document.getElementById("segundaPaginaHotel").style.display = "none";
+    document.getElementById("tercerPaginaHotel").style.display = "none";
+    document.getElementById("cuartaPaginaHotel").style.display = "block";
+}
 
 //Funcion Gracias
 
@@ -55,24 +56,38 @@ Array.from(volver).forEach((element) => { element.addEventListener("click", repe
 
 const confirmacionTarjeta = () => {
 
-    let numeroTarjeta = document.getElementById("inputTarjeta").value // Valor numero de tarjeta
-    // alert(numeroTarjeta) 
+    let numeroTarjeta = document.getElementById("inputTarjeta").value // Valor numero de tarjeta 
 
     if (numeroTarjeta.length < 16 || numeroTarjeta === 0) { //alert número erróneo 
         alert("Ingresa un número de tarjeta válido.");
-        return //en una función siempre hay return aunque no se vea, corta el funcionamiento
+        return
     }
 
     let validacion = validator.isValid(numeroTarjeta); //retorna verdadero o falso
-    //alert(validacion)
 
     if (validacion == false) {  //tiene el resultado de validator == compara === valor y tipo de datos el mismo 
         alert("Revisa tus datos nuevamente.");
     } else {
-        alert("Información" + validator.maskify(numeroTarjeta) + " ingresada correctamente.")
+        alert("Número de tarjeta " + validator.maskify(numeroTarjeta) + " ingresado correctamente.");
     }
 }
 
-//se toma de estructura anterior 
-let pagar = document.getElementById("botonFinalizar")
-pagar.addEventListener("click", confirmacionTarjeta)
+let probar = document.getElementById("botonProbar")
+probar.addEventListener("click", confirmacionTarjeta)
+
+
+
+
+function changeColor(botonProbar)
+{
+    if(x.style.background=="rgb(247, 211, 88)")
+    {
+        x.style.background="#fff";
+    }else{
+        x.style.background="#F7D358";
+    }
+    return false;
+}
+
+//return /en una función siempre hay return aunque no se vea, corta el funcionamiento
+
