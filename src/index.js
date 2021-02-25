@@ -77,17 +77,5 @@ probar.addEventListener("click", confirmacionTarjeta)
 
 
 
-
-function changeColor(botonProbar)
-{
-    if(x.style.background=="rgb(247, 211, 88)")
-    {
-        x.style.background="#fff";
-    }else{
-        x.style.background="#F7D358";
-    }
-    return false;
-}
-
 //return /en una función siempre hay return aunque no se vea, corta el funcionamiento
 

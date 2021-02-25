@@ -54,6 +54,7 @@ body {
     color: #af7876;
     opacity: 0.6;
     font-size: 90%;
+    text-decoration: none; 
   }
 
   h5 {
@@ -105,13 +106,13 @@ body {
 
   #portada {
     margin-top: -50px;
-    margin-bottom: -30px;
+    margin-bottom: -30px
   }
-  
+
  #imagenTarjeta {
   display: block;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 10px;
   width: 50%;
 }
@@ -329,7 +330,6 @@ body {
     background-color: #fdefef;
     opacity: 0.6;
   }
-
 
      /*Flechas-donar / anular-finalizar ubicación*/
 
