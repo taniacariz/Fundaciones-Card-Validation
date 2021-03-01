@@ -45,5 +45,5 @@ _lo primero que se trabajo en JS fue la vinculación de las páginas a través d
 _Y en paralelo los botones bajo la etiqueta "volver" se redireccionan hacía "Home"._
 
 <p align="center"> 
-    <img src="https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/JS.jpg">
+    <img src="https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/JS1.jpg">
  </p>
