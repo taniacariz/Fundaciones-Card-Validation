@@ -67,3 +67,11 @@ _2. En caso de que los datos sean correctos ("true"), nos arroja un "alert" con 
 <p align="center"> 
     <img src="https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/JS4.jpg">
  </p>
+
+## Trabajo final y observaciones 🐰✨💖
+
+_Diseño final del proyecto. En aspectos generales, es una copia casi fiel de mi protótipo de Figma. Quisiera no haber tenido que utilizar el botón de "confirmación" para validar y así poder manejar totalmente la misma diagramación, pero aún así no hay una inconsistencia visual. 
+
+<p align="center"> 
+    <img src="https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/finalfinal.jpg">
+ </p>
