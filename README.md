@@ -38,6 +38,10 @@ _Se juntaron todos los archivos html en uno principal trabajando el flujo de pá
 
 _La primera parte que se trabajo en JS fue la vinculación de las páginas a través de apagar y encender secciones del código._
 
+<p align="center"> 
+    <img src="https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/JS.jpg">
+ </p>
+
 _En segunda instancia, se inicio el trabajo del Validator, dividido en Luhn y Maskify, pasando así todas las pruebas._
 
 
