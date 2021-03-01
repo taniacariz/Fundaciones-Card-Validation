@@ -10,9 +10,9 @@ body {
 
   .card {
     display: block;
-    justify-content: center;
-    width: 100% auto; 
-    height: 100% auto;
+    justify-content: space-around;
+    width: 0 auto; 
+    height: 0 auto;
     transition: 0.3s;
     margin: 15px;
     background-image: linear-gradient(to bottom, #ff9a9a, #ff9e9e, #ffa3a3, #ffa7a7, #ffabab, #ffafad, #ffb4af, #ffb8b1, #ffbeb3, #ffc3b5, #ffc9b8, #ffcebc);  background-image: linear-gradient(to bottom, #ffba9a, #ffb89e, #ffb6a2, #ffb4a6, #ffb2aa, #ffb4ac, #ffb6af, #ffb8b1, #ffbeb3, #ffc3b5, #ffc9b8, #ffcebc);background-image: linear-gradient(to bottom, #f7949c, #f999a0, #fa9fa3, #fca4a7, #fda9ab, #feaead, #feb3af, #ffb8b1, #ffbeb3, #ffc3b5, #ffc9b8, #ffcebc);
@@ -93,7 +93,7 @@ body {
   .imagenPortal {
     display:block;
     margin: 0 auto;
-    width: 80%;
+    width: 70%;
     justify-content: center;
     margin-bottom: -10 px;
   }
