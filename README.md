@@ -76,10 +76,10 @@ _Diseño final del proyecto. En aspectos generales, es una copia casi fiel de mi
     <img src="https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/finalfinal.jpg">
  </p>
 
-_También hubo un cambio en algunos colores generales, pero siempre respetando la paleta. Quisiera para el próximo proyecto poder trabajar mejor el Responsive Desing y así adaptar correctamente mi pantalla a dispositivos más pequeños. Mi proyecto se ajusta al tamaño de otros dispositivos, pero no completa la pantalla en la parte inferior y me molesta, visualmente hablando. No pude manejar bien el center tanto en horizontal como vertical debido a que hice algunas "sub categorias" de orden, como en el caso de la página de validación en la cual tengo muchos "inputs". 
+_También hubo un cambio en algunos colores generales, pero siempre respetando la paleta. Quisiera para el próximo proyecto poder trabajar mejor el Responsive Desing y así adaptar correctamente mi pantalla a dispositivos más pequeños. Mi proyecto se ajusta al tamaño de otros dispositivos, pero no completa la pantalla en la parte inferior y me molesta, visualmente hablando. No pude manejar bien el center tanto en horizontal como vertical debido a que hice algunas "sub categorias" de orden, como en el caso de la página de validación en la cual tengo muchos "inputs"._
 
-_Y respecto a mi trabajo en JS, espero que en este próximo proyecto no sea tan difícil para mi. El aspecto visual se me hace mucho más sencillo, por lo cual sé cuál es el enfoque que debo darle a mis próximos pasos en términos de estudios. 
+_Y respecto a mi trabajo en JS, espero que en este próximo proyecto no sea tan difícil para mi. El aspecto visual se me hace mucho más sencillo, por lo cual sé cuál es el enfoque que debo darle a mis próximos pasos en términos de estudios._
 
 
-Quedé conforme con mi trabajo y agradezco nuevamente la experiencia. 
+Quedé conforme con mi trabajo y agradezco nuevamente la experiencia <3. 
 ¡Muchas gracias!
