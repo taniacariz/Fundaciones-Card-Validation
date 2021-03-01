@@ -62,7 +62,7 @@ _1. Si los carácteres ingresados no son números, son menos de 16 o no es una t
     <img src="https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/JS3.jpg">
  </p>
  
-_2. En caso de que sea "true", nos arroja un "alert" que nos indica que los datos ingresados son correctos, ejecutando así el maskify sobre el número ingresado. En esta instancia no logré enmascarar el número en el mismo input, dejándolo como una oportunidad pendiente para otro proyecto._
+_2. En caso de que los datos sean correctos ("true"), nos arroja un "alert" con los números de la tarjeta "enmascarados". En esta instancia no logré enmascarar el número en el mismo input, dejándolo como una oportunidad pendiente para otro proyecto._
 
 <p align="center"> 
     <img src="https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/JS4.jpg">
