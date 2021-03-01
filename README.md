@@ -36,7 +36,7 @@ _Se juntaron todos los archivos html en uno principal trabajando el flujo de pá
 
 ## Uso de JavaScript 🔐
 
-_lo primero que se trabajo en JS fue la vinculación de las páginas a través de apagar y encender secciones del código._
+_Lo primero que se trabajo en JS fue la vinculación de las páginas a través de apagar y encender secciones del código._
 
 <p align="center"> 
     <img src="https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/JS.jpg">
@@ -56,5 +56,14 @@ _Para poder iniciar el Validator lo vinculamos al botón de "¿Confirmar?".
     <img src="https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/JS2.jpg">
  </p>
 
-_1. Si los carácteres ingresados no son números, son menos de 16 o no es una tarjeta de Crédito Válida nos arroja un "alert" con un mensaje que nos solicita intentar nuevamente. 
-_2. En caso de que sea "true", nos arroja un "alert" que nos indica que los datos ingresados son correctos, ejecutando así el maskify sobre el número ingresado. En esta instancia no logré enmascarar el número en el mismo input, dejándolo como una oportunidad pendiente para otro proyecto. 
+_1. Si los carácteres ingresados no son números, son menos de 16 o no es una tarjeta de Crédito Válida nos arroja un "alert" con un mensaje que nos solicita intentar nuevamente.
+
+<p align="center"> 
+    <img src="https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/JS3.jpg">
+ </p>
+ 
+_2. En caso de que sea "true", nos arroja un "alert" que nos indica que los datos ingresados son correctos, ejecutando así el maskify sobre el número ingresado. En esta instancia no logré enmascarar el número en el mismo input, dejándolo como una oportunidad pendiente para otro proyecto.
+
+<p align="center"> 
+    <img src="https://github.com/tanimikyu/FundacionesCV/blob/master/src/images/JS4.jpg">
+ </p>
