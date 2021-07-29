@@ -9,9 +9,8 @@ inicio.addEventListener("click", nextPageOne)
 function nextPageOne() {
     document.getElementById("home").style.display = "none";
     document.getElementById("segundaPaginaHotel").style.display = "block";
-    document.getElementById("tercerPaginaHotel").style.display = "none";
-    document.getElementById("cuartaPaginaHotel").style.display = "none";
 }
+
 
 //Funcion Página Hotel a Donar
 
@@ -37,8 +36,6 @@ function nextPageTree() {
     document.getElementById("cuartaPaginaHotel").style.display = "block";
 }
 
-//Funcion Gracias
-
 function repeat() {
     document.getElementById("home").style.display = "block";
     document.getElementById("segundaPaginaHotel").style.display = "none";
@@ -52,6 +49,7 @@ let volver = document.getElementsByClassName("volver")
 Array.from(volver).forEach((element) => {
     element.addEventListener("click", repeat)
 })
+
 
 
 //Validator números tarjeta = true or false 
